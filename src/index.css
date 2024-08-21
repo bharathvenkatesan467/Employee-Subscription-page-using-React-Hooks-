@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.tdiv{
+  border: 1px solid whitesmoke;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 8px;
+}
+input,select{
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 0px;
+}
+.d1,.d2,.d3,.d4,.d5{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  
 }
